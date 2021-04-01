@@ -1,0 +1,49 @@
+{
+    "data": [
+        "required",
+        {
+            "nested_object": {
+                "id": [
+                    "required",
+                    "integer"
+                ],
+                "area": {
+                    "is": "eum"
+                },
+                "description": {
+                    "is": 30474
+                },
+                "expectedResult": {
+                    "is": "nobis"
+                },
+                "notes": {
+                    "is": "quod"
+                },
+                "status": {
+                    "is": "PASSED"
+                },
+                "isDeleted": {
+                    "is": 90634
+                },
+                "createdBy": {
+                    "is": "eos"
+                },
+                "updatedBy": {
+                    "is": "labore"
+                },
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ]
+}

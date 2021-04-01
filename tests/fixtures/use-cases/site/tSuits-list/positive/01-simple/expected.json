@@ -1,0 +1,72 @@
+{
+    "data": [
+        "required",
+        {
+            "list_of_objects": {
+                "id": [
+                    "required",
+                    "integer"
+                ],
+                "name": [
+                    "string",
+                    {
+                        "max_length": 255
+                    }
+                ],
+                "description": [
+                    "string",
+                    {
+                        "max_length": 255
+                    }
+                ],
+                "isDeleted": [
+                    "required",
+                    "integer"
+                ],
+                "createdBy": [
+                    "string",
+                    {
+                        "max_length": 255
+                    }
+                ],
+                "updatedBy": [
+                    "string",
+                    {
+                        "max_length": 255
+                    }
+                ],
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ],
+    "meta": [
+        "required",
+        {
+            "nested_object": {
+                "totalCount": {
+                    "is": 3
+                },
+                "filteredCount": {
+                    "is": 3
+                },
+                "limit": {
+                    "is": 20
+                },
+                "offset": {
+                    "is": 0
+                }
+            }
+        }
+    ]
+}

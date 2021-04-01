@@ -1,0 +1,49 @@
+{
+    "data": [
+        "required",
+        {
+            "nested_object": {
+                "id": [
+                    "required",
+                    "integer"
+                ],
+                "area": {
+                    "is": "laborum"
+                },
+                "description": {
+                    "is": 80157
+                },
+                "expectedResult": {
+                    "is": "perferendis"
+                },
+                "notes": {
+                    "is": "qui"
+                },
+                "status": {
+                    "is": "PASSED"
+                },
+                "isDeleted": {
+                    "is": 31434
+                },
+                "createdBy": {
+                    "is": "ut"
+                },
+                "updatedBy": {
+                    "is": "quae"
+                },
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ]
+}

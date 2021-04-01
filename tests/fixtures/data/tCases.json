@@ -1,0 +1,32 @@
+[
+    {
+        "area": "laborum",
+        "description": 80157,
+        "expectedResult": "perferendis",
+        "notes": "qui",
+        "status": "PASSED",
+        "isDeleted": 31434,
+        "createdBy": "ut",
+        "updatedBy": "quae"
+    },
+    {
+        "area": "repellat",
+        "description": 10411,
+        "expectedResult": "omnis",
+        "notes": "voluptatem",
+        "status": "NOT_TESTED",
+        "isDeleted": 43564,
+        "createdBy": "at",
+        "updatedBy": "soluta"
+    },
+    {
+        "area": "voluptas",
+        "description": 97334,
+        "expectedResult": "ab",
+        "notes": "explicabo",
+        "status": "NOT_TESTED",
+        "isDeleted": 96788,
+        "createdBy": "et",
+        "updatedBy": "et"
+    }
+]

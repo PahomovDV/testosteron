@@ -1,0 +1,47 @@
+{
+    "data": [
+        "required",
+        {
+            "nested_object": {
+                "id": [
+                    "required",
+                    "integer"
+                ],
+                "area": {
+                    "is": "non"
+                },
+                "description": {
+                    "is": 61978
+                },
+                "expectedResult": {
+                    "is": "voluptatum"
+                },
+                "notes": {
+                    "is": "deleniti"
+                },
+                "status": {},
+                "isDeleted": {
+                    "is": 49220
+                },
+                "createdBy": {
+                    "is": "molestiae"
+                },
+                "updatedBy": {
+                    "is": "pariatur"
+                },
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ]
+}
