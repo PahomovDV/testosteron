@@ -1,0 +1,34 @@
+{
+    "data": [
+        "required",
+        {
+            "nested_object": {
+                "id": [
+                    "required",
+                    "uuid"
+                ],
+                "email": {
+                    "is": "Jermaine.Lubowitz81@yahoo.com"
+                },
+                "userName": {
+                    "is": "error"
+                },
+                "token": {
+                    "is": "dolorem"
+                },
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ]
+}

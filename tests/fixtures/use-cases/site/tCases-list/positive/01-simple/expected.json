@@ -7,6 +7,14 @@
                     "required",
                     "integer"
                 ],
+                "suiteId": [
+                    "required",
+                    "integer"
+                ],
+                "userId": [
+                    "required",
+                    "uuid"
+                ],
                 "area": [
                     "string",
                     {
@@ -37,21 +45,9 @@
                         ]
                     }
                 ],
-                "isDeleted": [
+                "deletedBy": [
                     "required",
-                    "integer"
-                ],
-                "createdBy": [
-                    "string",
-                    {
-                        "max_length": 255
-                    }
-                ],
-                "updatedBy": [
-                    "string",
-                    {
-                        "max_length": 255
-                    }
+                    "iso_date"
                 ],
                 "createdAt": {
                     "iso_date": {

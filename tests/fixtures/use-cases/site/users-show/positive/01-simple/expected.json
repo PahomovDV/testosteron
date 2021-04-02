@@ -1,0 +1,34 @@
+{
+    "data": [
+        "required",
+        {
+            "nested_object": {
+                "id": [
+                    "required",
+                    "uuid"
+                ],
+                "email": {
+                    "is": "Jordan.Glover23@gmail.com"
+                },
+                "userName": {
+                    "is": "adipisci"
+                },
+                "token": {
+                    "is": "aut"
+                },
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ]
+}

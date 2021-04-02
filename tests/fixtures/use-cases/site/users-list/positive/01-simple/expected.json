@@ -1,0 +1,63 @@
+{
+    "data": [
+        "required",
+        {
+            "list_of_objects": {
+                "id": [
+                    "uuid"
+                ],
+                "email": [
+                    "required",
+                    "string",
+                    {
+                        "max_length": 255
+                    },
+                    "email"
+                ],
+                "userName": [
+                    "string",
+                    {
+                        "max_length": 255
+                    }
+                ],
+                "token": [
+                    "string",
+                    {
+                        "max_length": 255
+                    }
+                ],
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ],
+    "meta": [
+        "required",
+        {
+            "nested_object": {
+                "totalCount": {
+                    "is": 3
+                },
+                "filteredCount": {
+                    "is": 3
+                },
+                "limit": {
+                    "is": 20
+                },
+                "offset": {
+                    "is": 0
+                }
+            }
+        }
+    ]
+}

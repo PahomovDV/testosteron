@@ -1,0 +1,70 @@
+{
+    "data": [
+        "required",
+        {
+            "list_of_objects": {
+                "id": [
+                    "required",
+                    "integer"
+                ],
+                "suiteId": [
+                    "required",
+                    "integer"
+                ],
+                "userId": [
+                    "required",
+                    "uuid"
+                ],
+                "table": [
+                    "string",
+                    {
+                        "max_length": 255
+                    }
+                ],
+                "event": [
+                    "string",
+                    {
+                        "max_length": 255
+                    }
+                ],
+                "payload": [
+                    "string",
+                    {
+                        "max_length": 255
+                    }
+                ],
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ],
+    "meta": [
+        "required",
+        {
+            "nested_object": {
+                "totalCount": {
+                    "is": 3
+                },
+                "filteredCount": {
+                    "is": 3
+                },
+                "limit": {
+                    "is": 20
+                },
+                "offset": {
+                    "is": 0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "data": [
+        "required",
+        {
+            "nested_object": {
+                "id": [
+                    "required",
+                    "integer"
+                ],
+                "projectId": {
+                    "is": 29761
+                },
+                "userId": {
+                    "is": "21c06f1e-fcc6-412e-8a4b-1abefabd60d5"
+                },
+                "name": {
+                    "is": "in"
+                },
+                "description": {
+                    "is": "iusto"
+                },
+                "deletedBy": {
+                    "is": "2021-04-02T02:04:17.600Z"
+                },
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ]
+}

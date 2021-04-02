@@ -7,14 +7,14 @@
                     "required",
                     "integer"
                 ],
-                "token": {
-                    "is": "vero"
+                "suiteId": {
+                    "is": 70063
+                },
+                "userId": {
+                    "is": "74e39212-534d-48d3-861a-b19a53cc9901"
                 },
                 "status": {
                     "is": "DISABLED"
-                },
-                "suiteId": {
-                    "is": 60559
                 },
                 "createdAt": {
                     "iso_date": {

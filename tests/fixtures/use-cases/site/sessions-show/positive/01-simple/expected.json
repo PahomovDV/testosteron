@@ -7,14 +7,14 @@
                     "required",
                     "integer"
                 ],
-                "token": {
-                    "is": "suscipit"
+                "suiteId": {
+                    "is": 61163
+                },
+                "userId": {
+                    "is": "99a8e716-d4c5-4afe-bab2-87c4cddfed28"
                 },
                 "status": {
-                    "is": "DISABLED"
-                },
-                "suiteId": {
-                    "is": 30393
+                    "is": "ACTIVE"
                 },
                 "createdAt": {
                     "iso_date": {

@@ -1,0 +1,40 @@
+{
+    "data": [
+        "required",
+        {
+            "nested_object": {
+                "id": [
+                    "required",
+                    "integer"
+                ],
+                "suiteId": {
+                    "is": 86950
+                },
+                "userId": {
+                    "is": "b0085387-49a9-4cd6-a597-fb7197e97d5b"
+                },
+                "table": {
+                    "is": "temporibus"
+                },
+                "event": {
+                    "is": "modi"
+                },
+                "payload": {
+                    "is": "ad"
+                },
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -7,29 +7,27 @@
                     "required",
                     "integer"
                 ],
+                "suiteId": {
+                    "is": 5936
+                },
+                "userId": {
+                    "is": "15ab8a3f-119a-4dd4-a356-85857c71fa3f"
+                },
                 "area": {
-                    "is": "eum"
+                    "is": "tenetur"
                 },
                 "description": {
-                    "is": 30474
+                    "is": 60658
                 },
                 "expectedResult": {
-                    "is": "nobis"
+                    "is": "illo"
                 },
                 "notes": {
-                    "is": "quod"
+                    "is": "molestias"
                 },
-                "status": {
-                    "is": "PASSED"
-                },
-                "isDeleted": {
-                    "is": 90634
-                },
-                "createdBy": {
-                    "is": "eos"
-                },
-                "updatedBy": {
-                    "is": "labore"
+                "status": {},
+                "deletedBy": {
+                    "is": "2021-04-02T12:36:24.605Z"
                 },
                 "createdAt": {
                     "iso_date": {

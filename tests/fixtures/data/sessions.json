@@ -1,17 +1,17 @@
 [
     {
-        "token": "suscipit",
-        "status": "DISABLED",
-        "suiteId": 30393
+        "suiteId": 61163,
+        "userId": "99a8e716-d4c5-4afe-bab2-87c4cddfed28",
+        "status": "ACTIVE"
     },
     {
-        "token": "quod",
-        "status": "DISABLED",
-        "suiteId": 70248
+        "suiteId": 28698,
+        "userId": "b75d5ec3-8eb6-46f5-9e2b-ebeda1f97a3b",
+        "status": "DISABLED"
     },
     {
-        "token": "eaque",
-        "status": "NONE",
-        "suiteId": 96769
+        "suiteId": 40871,
+        "userId": "e2f0fc8c-6d26-45d7-8305-b1fa7820840a",
+        "status": "DISABLED"
     }
 ]

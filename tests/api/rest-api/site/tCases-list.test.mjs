@@ -22,7 +22,8 @@ function requestBuilder(input, token) {
     };
 }
 
-tester.setupTestsWithTransactions(`${dirname}/../../../fixtures/use-cases/site/tCases-list/positive`,
+tester.setupTestsWithTransactions(
+    `${dirname}/../../../fixtures/use-cases/site/tCases-list/positive`,
     'site/tCases-list/positive',
     async ({ config: { before }, input, expected }) => {
         const { userId } = await before(tester.factory);

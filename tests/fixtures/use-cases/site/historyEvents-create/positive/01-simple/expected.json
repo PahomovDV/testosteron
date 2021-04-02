@@ -1,0 +1,40 @@
+{
+    "data": [
+        "required",
+        {
+            "nested_object": {
+                "id": [
+                    "required",
+                    "integer"
+                ],
+                "suiteId": {
+                    "is": 44552
+                },
+                "userId": {
+                    "is": "a9e8ed9e-6951-4841-a054-e88604ddbc1f"
+                },
+                "table": {
+                    "is": "eligendi"
+                },
+                "event": {
+                    "is": "repellendus"
+                },
+                "payload": {
+                    "is": "dolorem"
+                },
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -7,27 +7,29 @@
                     "required",
                     "integer"
                 ],
+                "suiteId": {
+                    "is": 92536
+                },
+                "userId": {
+                    "is": "03846cfb-4352-4f37-bdc1-50093fa78cad"
+                },
                 "area": {
-                    "is": "non"
+                    "is": "possimus"
                 },
                 "description": {
-                    "is": 61978
+                    "is": 43004
                 },
                 "expectedResult": {
-                    "is": "voluptatum"
+                    "is": "iusto"
                 },
                 "notes": {
-                    "is": "deleniti"
+                    "is": "quo"
                 },
-                "status": {},
-                "isDeleted": {
-                    "is": 49220
+                "status": {
+                    "is": "PASSED"
                 },
-                "createdBy": {
-                    "is": "molestiae"
-                },
-                "updatedBy": {
-                    "is": "pariatur"
+                "deletedBy": {
+                    "is": "2021-04-02T11:37:14.918Z"
                 },
                 "createdAt": {
                     "iso_date": {

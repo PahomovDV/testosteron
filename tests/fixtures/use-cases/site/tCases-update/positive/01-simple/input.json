@@ -1,11 +1,12 @@
 {
     "data": {
-        "area": "non",
-        "description": 61978,
-        "expectedResult": "voluptatum",
-        "notes": "deleniti",
-        "isDeleted": 49220,
-        "createdBy": "molestiae",
-        "updatedBy": "pariatur"
+        "suiteId": 92536,
+        "userId": "03846cfb-4352-4f37-bdc1-50093fa78cad",
+        "area": "possimus",
+        "description": 43004,
+        "expectedResult": "iusto",
+        "notes": "quo",
+        "status": "PASSED",
+        "deletedBy": "2021-04-02T11:37:14.918Z"
     }
 }

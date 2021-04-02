@@ -1,32 +1,30 @@
 [
     {
-        "area": "laborum",
-        "description": 80157,
-        "expectedResult": "perferendis",
-        "notes": "qui",
-        "status": "PASSED",
-        "isDeleted": 31434,
-        "createdBy": "ut",
-        "updatedBy": "quae"
+        "suiteId": 60420,
+        "userId": "0bb992ee-9edc-44d0-a926-2b79b0ca802d",
+        "area": "reprehenderit",
+        "description": 90939,
+        "expectedResult": "eaque",
+        "notes": "libero",
+        "deletedBy": "2021-04-02T15:07:38.222Z"
     },
     {
-        "area": "repellat",
-        "description": 10411,
-        "expectedResult": "omnis",
-        "notes": "voluptatem",
+        "suiteId": 88644,
+        "userId": "1abb3562-5dc6-4a73-8ac4-58d5a9897f8c",
+        "area": "non",
+        "description": 6666,
+        "expectedResult": "impedit",
+        "notes": "autem",
         "status": "NOT_TESTED",
-        "isDeleted": 43564,
-        "createdBy": "at",
-        "updatedBy": "soluta"
+        "deletedBy": "2021-04-01T18:08:12.770Z"
     },
     {
-        "area": "voluptas",
-        "description": 97334,
-        "expectedResult": "ab",
-        "notes": "explicabo",
-        "status": "NOT_TESTED",
-        "isDeleted": 96788,
-        "createdBy": "et",
-        "updatedBy": "et"
+        "suiteId": 91642,
+        "userId": "ddf7bef5-c7f4-4ff6-8757-9db40189a2c3",
+        "area": "voluptatem",
+        "description": 8686,
+        "expectedResult": "et",
+        "notes": "tempore",
+        "deletedBy": "2021-04-02T11:05:35.776Z"
     }
 ]

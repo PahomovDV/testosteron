@@ -17,7 +17,8 @@ function requestBuilder(input, token) {
     };
 }
 
-tester.setupTestsWithTransactions(`${dirname}/../../../fixtures/use-cases/site/tCases-create/positive`,
+tester.setupTestsWithTransactions(
+    `${dirname}/../../../fixtures/use-cases/site/tCases-create/positive`,
     'site/tCases-create/positive',
     async ({ config: { before }, input, expected }) => {
         const { userId } = await before(tester.factory);
@@ -31,7 +32,8 @@ tester.setupTestsWithTransactions(`${dirname}/../../../fixtures/use-cases/site/t
     }
 );
 
-tester.setupTestsWithTransactions(`${dirname}/../../../fixtures/use-cases/site/tCases-create/negative`,
+tester.setupTestsWithTransactions(
+    `${dirname}/../../../fixtures/use-cases/site/tCases-create/negative`,
     'site/tCases-create/negative',
     async ({ config: { before }, input, exception }) => {
         const { userId } = await before(tester.factory);

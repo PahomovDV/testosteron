@@ -1,0 +1,40 @@
+{
+    "data": [
+        "required",
+        {
+            "nested_object": {
+                "id": [
+                    "required",
+                    "integer"
+                ],
+                "projectId": {
+                    "is": 80631
+                },
+                "userId": {
+                    "is": "e0ba6d51-7f53-46f6-b5c0-27b05ef2b9a8"
+                },
+                "name": {
+                    "is": "eum"
+                },
+                "description": {
+                    "is": "molestiae"
+                },
+                "deletedBy": {
+                    "is": "2021-04-02T10:23:04.507Z"
+                },
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ]
+}

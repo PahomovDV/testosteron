@@ -1,0 +1,40 @@
+{
+    "data": [
+        "required",
+        {
+            "nested_object": {
+                "id": [
+                    "required",
+                    "integer"
+                ],
+                "suiteId": {
+                    "is": 68180
+                },
+                "userId": {
+                    "is": "197fa4d5-2d49-45c7-84fc-f6d8566321dd"
+                },
+                "table": {
+                    "is": "sed"
+                },
+                "event": {
+                    "is": "et"
+                },
+                "payload": {
+                    "is": "vero"
+                },
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -7,12 +7,14 @@
                     "required",
                     "integer"
                 ],
-                "token": {
-                    "is": "tempore"
-                },
-                "status": {},
                 "suiteId": {
-                    "is": 42909
+                    "is": 73565
+                },
+                "userId": {
+                    "is": "f10630cd-85da-42b1-8196-d3bbe9915a38"
+                },
+                "status": {
+                    "is": "NONE"
                 },
                 "createdAt": {
                     "iso_date": {

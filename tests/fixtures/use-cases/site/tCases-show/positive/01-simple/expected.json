@@ -7,29 +7,36 @@
                     "required",
                     "integer"
                 ],
+                "suiteId": {
+                    "is": 60420
+                },
+                "userId": {
+                    "is": "0bb992ee-9edc-44d0-a926-2b79b0ca802d"
+                },
                 "area": {
-                    "is": "laborum"
+                    "is": "reprehenderit"
                 },
                 "description": {
-                    "is": 80157
+                    "is": 90939
                 },
                 "expectedResult": {
-                    "is": "perferendis"
+                    "is": "eaque"
                 },
                 "notes": {
-                    "is": "qui"
+                    "is": "libero"
                 },
-                "status": {
-                    "is": "PASSED"
-                },
-                "isDeleted": {
-                    "is": 31434
-                },
-                "createdBy": {
-                    "is": "ut"
-                },
-                "updatedBy": {
-                    "is": "quae"
+                "status": [
+                    "required",
+                    {
+                        "one_of": [
+                            "PASSED",
+                            "FILED",
+                            "NOT_TESTED"
+                        ]
+                    }
+                ],
+                "deletedBy": {
+                    "is": "2021-04-02T15:07:38.222Z"
                 },
                 "createdAt": {
                     "iso_date": {

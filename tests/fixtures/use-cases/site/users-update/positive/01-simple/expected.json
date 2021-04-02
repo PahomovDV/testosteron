@@ -1,0 +1,34 @@
+{
+    "data": [
+        "required",
+        {
+            "nested_object": {
+                "id": [
+                    "required",
+                    "uuid"
+                ],
+                "email": {
+                    "is": "Darron_Shanahan42@yahoo.com"
+                },
+                "userName": {
+                    "is": "est"
+                },
+                "token": {
+                    "is": "dolor"
+                },
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ]
+}

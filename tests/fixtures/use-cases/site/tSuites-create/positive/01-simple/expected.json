@@ -1,0 +1,40 @@
+{
+    "data": [
+        "required",
+        {
+            "nested_object": {
+                "id": [
+                    "required",
+                    "integer"
+                ],
+                "projectId": {
+                    "is": 55868
+                },
+                "userId": {
+                    "is": "b2628afd-94bc-4eaa-bea3-7a0a498ecef6"
+                },
+                "name": {
+                    "is": "quia"
+                },
+                "description": {
+                    "is": "labore"
+                },
+                "deletedBy": {
+                    "is": "2021-04-02T02:22:30.468Z"
+                },
+                "createdAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                },
+                "updatedAt": {
+                    "iso_date": {
+                        "min": "current",
+                        "format": "datetime"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -7,11 +7,13 @@
                     "required",
                     "integer"
                 ],
-                "token": [
-                    "string",
-                    {
-                        "max_length": 255
-                    }
+                "suiteId": [
+                    "required",
+                    "integer"
+                ],
+                "userId": [
+                    "required",
+                    "uuid"
                 ],
                 "status": [
                     {
@@ -21,10 +23,6 @@
                             "DISABLED"
                         ]
                     }
-                ],
-                "suiteId": [
-                    "required",
-                    "integer"
                 ],
                 "createdAt": {
                     "iso_date": {

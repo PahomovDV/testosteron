@@ -1,12 +1,11 @@
 {
     "data": {
-        "area": "eum",
-        "description": 30474,
-        "expectedResult": "nobis",
-        "notes": "quod",
-        "status": "PASSED",
-        "isDeleted": 90634,
-        "createdBy": "eos",
-        "updatedBy": "labore"
+        "suiteId": 5936,
+        "userId": "15ab8a3f-119a-4dd4-a356-85857c71fa3f",
+        "area": "tenetur",
+        "description": 60658,
+        "expectedResult": "illo",
+        "notes": "molestias",
+        "deletedBy": "2021-04-02T12:36:24.605Z"
     }
 }
